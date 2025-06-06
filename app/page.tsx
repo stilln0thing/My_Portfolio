@@ -40,7 +40,7 @@ export default function Home() {
         <div className="py-8">
           <div className="mb-8">
             <div className="inline-block bg-black/50 border border-purple-500/20 rounded-md px-3 py-1 text-sm text-purple-400/80">
-              <span>{time} am | india (GMT+5:30)</span>
+              <span>{time} | india (GMT+5:30)</span>
             </div>
 
             <div className="flex items-center justify-between mt-6">
@@ -89,12 +89,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-6 md:mt-0">
-                <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-purple-500/50 glow-effect">
+                <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-purple-500/50 glow-effect">
                   <Image
-                    src="/placeholder.svg?height=128&width=128"
+                    src="/profileimg.jpeg"
                     alt="Atharv Mittal"
-                    width={128}
-                    height={128}
+                    fill
                     className="object-cover"
                   />
                 </div>
@@ -134,9 +133,9 @@ export default function Home() {
               </h2>
               <div className="pl-4 border-l border-purple-800/30 text-gray-400 font-mono">
                 <p className="mb-4">
-                  i&apos;m a computer science student at IIIT Ranchi, specializing in DSAI. i started programming with
-                  competitive coding, then ventured into web development with React, Node.js, and backend technologies
-                  like Golang and FastAPI.
+                  i&apos;m a computer science student at iiit ranchi, specializing in data science and ai. i started programming with
+                  competitive coding, then ventured into web development with react, node.js, and backend technologies
+                  like golang and fastAPI.
                 </p>
                 <p className="mb-4">
                   worked as a backend developer intern at invsto, where i&apos;ve refactored and debugged
@@ -147,30 +146,30 @@ export default function Home() {
               </div>
             </section>
 
-            <section id="skills" className="mb-12">
+            <section id="skills" className="mb-6">
               <h2 className="text-purple-500 font-mono mb-4 flex items-center">
                 <span className="text-gray-600 mr-2">#</span> skills
               </h2>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div>
                   <h3 className="text-gray-300 font-mono mb-3 pl-4 border-l border-purple-800/30">languages</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
-                      <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm p-0.5 ">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group bg-gray-800">
+                      <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors ">
                         python
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         golang
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         javascript
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">c</span>
                     </div>
                   </div>
@@ -178,23 +177,23 @@ export default function Home() {
 
                 <div>
                   <h3 className="text-gray-300 font-mono mb-3 pl-4 border-l border-purple-800/30">web development</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm p-0.5">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         react.js
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         node.js
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         express.js
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         fastapi
                       </span>
@@ -204,23 +203,23 @@ export default function Home() {
 
                 <div>
                   <h3 className="text-gray-300 font-mono mb-3 pl-4 border-l border-purple-800/30">Databases & Tools</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 ">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm p-0.5 ">
                     <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors ">
                         postgresql
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         mysql
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">
                         docker
                       </span>
                     </div>
-                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group">
+                    <div className="border border-gray-800 hover:border-purple-800/30 rounded-md p-3 text-center transition-all hover:bg-black/30 group  bg-gray-800">
                       <span className="text-gray-400 font-mono group-hover:text-purple-400 transition-colors">git</span>
                     </div>
                   </div>
