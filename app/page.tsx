@@ -40,7 +40,7 @@ export default function Home() {
         <div className="py-8">
           <div className="mb-8">
             <div className="inline-block bg-black/50 border border-purple-500/20 rounded-md px-3 py-1 text-sm text-purple-400/80">
-              <span>{time} | india (GMT+5:30)</span>
+                <span>{parseInt(time) > 12 ? `${time} pm` : `${time} am`} | India (GMT+5:30)</span>
             </div>
 
             <div className="flex items-center justify-between mt-6">
