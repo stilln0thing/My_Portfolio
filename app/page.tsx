@@ -56,7 +56,7 @@ export default function Home() {
                 >
                   <Github size={18} />
                 </a>
-                <a href="https://linkedin.com" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://www.linkedin.com/in/atharv-mittal-2a9991213" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Linkedin size={18} />
                 </a>
                 <a
@@ -355,26 +355,21 @@ export default function Home() {
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">→</span>
                     <span>
-                      Reached <span className="text-purple-400">Pupil</span> on CodeForces with a max Rating of{" "}
-                      <span className="text-purple-400">1236</span>
+                      Reached <span className="text-purple-400">Specialist</span> on CodeForces with a max Rating of{" "}
+                      <span className="text-purple-400">1424</span>
+                    </span>
+                  </li>
+                   <li className="flex items-start">
+                    <span className="text-purple-500 mr-2">→</span>
+                    <span>
+                     Reached <span className="text-purple-400">Knight</span> on Leetcode with a max Rating of{" "}
+                      <span className="text-purple-400">1870</span>
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">→</span>
                     <span>
-                      Solved more than <span className="text-purple-400">300 problems</span> across all platforms
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-500 mr-2">→</span>
-                    <span>
-                      Achieved <span className="text-purple-400">Global Rank 784</span> in CodeChef Starters 127 (Div 3)
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-purple-500 mr-2">→</span>
-                    <span>
-                      Achieved <span className="text-purple-400">Global Rank 253</span> in CodeChef Starters 119 (Div 4)
+                      Solved more than <span className="text-purple-400">600 problems</span> across all platforms
                     </span>
                   </li>
                 </ul>
@@ -410,7 +405,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Linkedin size={16} className="text-purple-500" />
-                    <a href="#" className="hover:text-purple-400 transition-colors">
+                    <a href="https://www.linkedin.com/in/atharv-mittal-2a9991213/" className="hover:text-purple-400 transition-colors">
                       LinkedIn
                     </a>
                   </div>
