@@ -348,21 +348,21 @@ export default function Home() {
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">→</span>
                     <span>
-                      Reached <span className="text-purple-400">3 star</span> on CodeChef with a max rating of{" "}
+                      Reached <a href="https://www.codechef.com/users/inntheloop" className="text-purple-400 hover:underline">3 star</a> on CodeChef with a max rating of{" "}
                       <span className="text-purple-400">1641</span>
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">→</span>
                     <span>
-                      Reached <span className="text-purple-400">Specialist</span> on CodeForces with a max Rating of{" "}
+                      Reached <a href="https://codeforces.com/profile/Monked_Hermit" className="text-purple-400 hover:underline">Specialist</a> on CodeForces with a max Rating of{" "}
                       <span className="text-purple-400">1424</span>
                     </span>
                   </li>
                    <li className="flex items-start">
                     <span className="text-purple-500 mr-2">→</span>
                     <span>
-                     Reached <span className="text-purple-400">Knight</span> on Leetcode with a max Rating of{" "}
+                     Reached <a href="https://leetcode.com/u/stilln0thing/" className="text-purple-400 hover:underline">Knight</a> on Leetcode with a max Rating of{" "}
                       <span className="text-purple-400">1870</span>
                     </span>
                   </li>
