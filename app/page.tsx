@@ -81,11 +81,13 @@ export default function Home() {
                   <a href="#" className="text-purple-500 hover:underline">
                     iiit ranchi
                   </a>
-                  . ex-backend intern @{" "}
-                  <a href="#" className="text-purple-500 hover:underline">
-                    invsto
-                  </a>
                   .
+                  <br /> 
+                  currently interning @{" "}
+                  <a href="#" className="text-purple-500 hover:underline">
+                    Auraverse
+                  </a>
+                  , previous internships at Hi College and Invsto.
                 </p>
               </div>
               <div className="mt-6 md:mt-0">
@@ -107,6 +109,11 @@ export default function Home() {
                 <li>
                   <a href="#about" className="text-purple-500 hover:text-purple-400 transition-colors">
                     about
+                  </a>
+                </li>
+                 <li>
+                  <a href="#experience" className="text-gray-500 hover:text-purple-400 transition-colors">
+                    experience
                   </a>
                 </li>
                 <li>
@@ -137,14 +144,48 @@ export default function Home() {
                   competitive coding, then ventured into web development with react, node.js, and backend technologies
                   like golang and fastAPI.
                 </p>
-                <p className="mb-4">
-                  worked as a backend developer intern at invsto, where i&apos;ve refactored and debugged
-                  over 100 api endpoints built with python and fastapi, improving performance and backend efficiency.
-                </p>
                 <p>i&apos;m passionate about creating robust developer tools and scalable backend systems.</p>
                
               </div>
             </section>
+
+            <section id="experience" className="mb-12">
+              <h2 className="text-purple-500 font-mono mb-4 flex items-center">
+                <span className="text-gray-600 mr-2">#</span> experience
+              </h2>
+              <div className="space-y-8 pl-4 border-l border-purple-800/30 text-gray-400 font-mono">
+                <div>
+                  <h3 className="text-gray-300 font-mono">Auraverse | Software Developer Intern</h3>
+                  <p className="text-sm text-gray-500">Sep 2025 – Present</p>
+                  <ul className="list-disc ml-6 mt-2 space-y-1">
+                    <li>Led development of scalable full-stack modules using Next.js, React.js, and Go (Gin), delivering production-grade RESTful services and seamless front-end experiences.</li>
+                    <li>Optimized backend performance by redesigning database queries and request pipelines, achieving a 10% reduction in response time across high-traffic endpoints.</li>
+                    <li>Owned and automated cloud workflows with GitHub Actions CI/CD and Google Cloud Platform (GCP), enabling rapid deployments and high-throughput media upload/download via GCS buckets.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-gray-300 font-mono">Hi College | Backend Developer Intern</h3>
+                  <p className="text-sm text-gray-500">Jul 2025 – Sep 2025</p>
+                  <ul className="list-disc ml-6 mt-2 space-y-1">
+                    <li>Spearheaded design of high-performance RPC microservices in Go using gRPC and Protocol Buffers, enabling low-latency communication across distributed services.</li>
+                    <li>Drove CI/CD pipeline improvements in Jenkins, incorporating automated testing, static analysis, and containerized deployments via Docker, reducing release cycle time.</li>
+                    <li>Provisioned and secured AWS infrastructure with autoscaling, monitoring, and fault-tolerant configurations, ensuring high availability and operational stability.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-gray-300 font-mono">Invsto | Backend Developer Intern</h3>
+                  <p className="text-sm text-gray-500">Feb 2025 – Mar 2025</p>
+                  <ul className="list-disc ml-6 mt-2 space-y-1">
+                    <li>Refactored and optimized 100+ REST API endpoints using FastAPI, improving average response time by 30%.</li>
+                    <li>Scaled strategy engine backend to handle 500+ trades/day with sub-50ms latency.</li>
+                    <li>Collaborated cross-functionally with the front-end team to integrate 50+ APIs, streamlining data flow and reducing UI latency by coordinating weekly sync meetings.</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
 
             <section id="skills" className="mb-6">
               <h2 className="text-purple-500 font-mono mb-4 flex items-center">
@@ -297,6 +338,7 @@ export default function Home() {
               </div>
             </section>
 
+            
             <section id="achievements" className="mb-12">
               <h2 className="text-purple-500 font-mono mb-4 flex items-center">
                 <span className="text-gray-600 mr-2">#</span> achievements
@@ -396,6 +438,10 @@ export default function Home() {
           <a href="#projects" className="text-gray-500 hover:text-purple-400">
             <div className="h-1 w-1 rounded-full bg-gray-500 mx-auto mb-1"></div>
             <span className="text-xs">Projects</span>
+          </a>
+          <a href="#experience" className="text-gray-500 hover:text-purple-400">
+            <div className="h-1 w-1 rounded-full bg-gray-500 mx-auto mb-1"></div>
+            <span className="text-xs">Experience</span>
           </a>
           <a href="#achievements" className="text-gray-500 hover:text-purple-400">
             <div className="h-1 w-1 rounded-full bg-gray-500 mx-auto mb-1"></div>
